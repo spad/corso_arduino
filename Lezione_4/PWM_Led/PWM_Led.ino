@@ -1,10 +1,11 @@
 /*
-  Button
+  Dimm
  
-Accende e spenge un led e scrive sulla serial di debug lo stato del pulsante / led 
- 
-ESERCIZIO: fare in modo che il pulsante resti acceso dopo la prima pressione e si 
-spenga alla seconda (e cosi' via).
+Illumina progressivamente (fadein) un led collegato ad una porta PWM alla pressione di un pulsante.
+Il livello di luminosità è scritto sulla serial per il debug
+
+ESERCIZIO: visualizzare cosa accade con l'overflow della variabile brightness e rimediare. 
+ESERCIZIO: usare il secondo pulsante per spegnere progressivamente il led (fadeout)
 
 */
 

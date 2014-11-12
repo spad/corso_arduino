@@ -7,6 +7,9 @@ Scrive sulla seriale lo stato del pulsante.
 VEDERE reference di Serial.print sul sito di arduino
 
 NOTA: usare la funzione F() in println: Serial.println(F("Hello World!"));
+Il testo usato nella print viene allocato nella ram di arduino, a meno che non si usi F() che
+lo alloca nel program space.
+
 
 http://arduino.cc/en/Reference/Serial
 
